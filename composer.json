@@ -1,0 +1,21 @@
+{
+  "name": "yurineves92/log",
+  "description": "Create Log, Monitoring and Alerts Using PHP",
+  "authors": [
+      {
+          "name": "Yuri Neves",
+          "email": "yurineves92@gmail.com"
+      }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "monolog/monolog": "2.0.*"
+  }
+}
